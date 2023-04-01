@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* PRODUCT LIST STYLE
+*
+***************************************************************************/
+@font-face {
+    font-family: futo_bold;
+    src: url(../fonts/FutoMinA101Pro-Bold.otf);
+}
+.futo {
+    font-family: 'futo_bold';
+}
+#content{
+	padding: 35px 0;
+}
+#pageTitle{
+	background: #f2f2f2;
+    padding: 23px 0;
+}
+#pageTitle .pageTitleText{
+	color: #595757;
+	font-size: 36px;
+	font-weight: normal;
+	padding: 0 20px;
+	margin: 0;
+	
+}
+
+
+
+/*PAGINATION*/
+.pagination{
+
+}
+.pagination .paginate{
+	overflow: hidden;
+	padding-left: 0;
+	margin: 0;
+}
+.pagination .paginate li{
+	float: left;
+	margin: 0 4px 4px 0;
+}
+.pagination .paginate li:last-child{
+	margin-right: 0;
+}
+.pagination .paginate li a{
+	color: #b3b3b3;
+	border: 1px solid #b3b3b3;
+	display: block;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: all 200ms linear;
+}
+.pagination .paginate li a:hover{
+	text-decoration: none;
+	background: #dedede;
+}
+.pagination .paginate li.active a{
+	background: #b3b3b3;
+	color: #fff;
+	font-family: sans-serif;
+}
+.pagination .paginate li.prev a,
+.pagination .paginate li.next a{
+	font-size: 32px;
+}
+
+.pagination .paginate li span{
+	color: #b3b3b3;
+	border: 1px solid #b3b3b3;
+	display: block;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px;
+	transition: all 200ms linear;
+}
+.pagination .paginate li span:hover{
+	text-decoration: none;
+	background: #dedede;
+}
+.pagination .paginate li span.current{
+	background: #b3b3b3;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+/*PAGINATION*/
+
+
+
+@media(max-width: 768px){
+
+	
+}

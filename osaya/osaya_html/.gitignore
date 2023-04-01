@@ -1,0 +1,9 @@
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+/wp-config.php
+/node_modules
+/gulpfile.js
+/package-lock.json
+
